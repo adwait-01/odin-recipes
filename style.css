@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightblue;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    padding: 50px;
+    background-color:pink;
+    margin: 50px auto;
+    width: 500px;
+}
+
+h1{
+    color:brown;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul{
+    display:block;
+    width: fit-content;
+    margin:10px auto;
+    border: 1px solid red;
+    padding:10px;
+    background-color: rgb(241, 196, 137);
+    text-align: center;
+}
+
+li{
+    display:inline-flex;
+    color:green;
+    background-color: bisque;
+    padding: 10px;
+    margin: 10px;
+    border: 1px dashed black;
+    border-radius: 8px;
+    /* transition: transform 0.2s ease; */
+}
+
+/* li:hover{
+    transform: scale(1.05);
+} */
+
+a{
+    color: brown;
+}
